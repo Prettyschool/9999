@@ -1,5 +1,5 @@
-# For most projects, this workflow file will not need changing; you simply need
-# to commit it to your repository.
+# Pre väčšinu projektov nebude potrebné tento súbor pracovného toku meniť; jednoducho potrebujete
+# na odovzdanie do vášho úložiska.
 #
 # You may wish to alter this file to override the set of languages analyzed,
 # or to provide custom queries or build logic.
@@ -73,4 +73,6 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
       with:
-        category: "/language:${{matrix.language}}"
+        kategória: "/language:${{matrix.language}}"
+[![CodeQL](https://github.com/Prettyschool/9999/actions/workflows/codeql.yml/badge.svg)](https://github.com/Prettyschool/9999/actions/workflows/codeql.yml)
+
